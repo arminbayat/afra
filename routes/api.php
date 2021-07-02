@@ -19,4 +19,5 @@ Route::prefix('/auth')
     ->as('auth.')
     ->group(static function (): void {
         Route::post('/login', 'LoginController')->name('login');
+        Route::get('/logout', 'LogoutController')->middleware('auth:api')->name('logout');
     });
