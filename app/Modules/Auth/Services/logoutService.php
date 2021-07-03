@@ -3,7 +3,6 @@
 
 namespace App\Modules\Auth\Services;
 
-
 use App\Models\User;
 
 class logoutService

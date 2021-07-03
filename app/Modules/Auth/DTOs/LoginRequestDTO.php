@@ -3,7 +3,6 @@
 
 namespace App\Modules\Auth\DTOs;
 
-
 use App\Common\Bases\DTO;
 
 class LoginRequestDTO extends DTO

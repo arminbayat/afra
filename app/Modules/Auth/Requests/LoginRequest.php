@@ -3,7 +3,6 @@
 
 namespace App\Modules\Auth\Requests;
 
-
 use App\Common\Bases\Request;
 
 class LoginRequest extends Request

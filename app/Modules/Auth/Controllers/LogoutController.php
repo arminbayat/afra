@@ -3,7 +3,6 @@
 
 namespace App\Modules\Auth\Controllers;
 
-
 use App\Common\Bases\Controller;
 use App\Common\Resources\NoContentResource;
 use App\Models\User;

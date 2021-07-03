@@ -10,8 +10,8 @@ class LoginService
 {
     public function __construct(
         private ValidateAndGetUserByCredentialsService $validateAndGetUserByCredentialsService,
-        private IssueTokenService $issueTokenService)
-    {
+        private IssueTokenService $issueTokenService
+    ) {
     }
 
     public function __invoke(LoginRequestDTO $loginRequestDTO): TokenDTO
